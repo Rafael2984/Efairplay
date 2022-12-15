@@ -41,7 +41,7 @@ stockProductos.forEach((producto) => {
     `
     contenedorProductos.appendChild(div)
 
-   
+
     const boton = document.getElementById(`agregar${producto.id}`)
 
     boton.addEventListener('click', () => {
